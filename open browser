@@ -1,0 +1,23 @@
+
+package splprgm;
+import java.awt.Desktop;
+import java.net.URI;
+import java.net.URISyntaxException;
+
+public class Splprgm {
+
+    public static void main(String[] args) throws Exception {
+      // Create Desktop object
+        
+        Desktop d=Desktop.getDesktop();
+     d.browse(new URI("http://google.com"));
+    
+ }
+}
+ //Runtime
+//       public static void main(String[] args)throws Exception{
+//        
+//        Runtime rt=Runtime.getRuntime();
+//        String url="www.google.com";
+//        rt.exec( "rundll32 url.dll,FileProtocolHandler " + url);
+        
